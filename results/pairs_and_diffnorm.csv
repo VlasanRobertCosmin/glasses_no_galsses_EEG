@@ -1,0 +1,6 @@
+pair_id,glasses_path,noglasses_path,diff_norm
+Vlasan Robert eye test,data\Vlasan Robert eye test galsses2025.11.21_14.34.08.hdf5,data\Vlasan Robert eye test no galsses2025.11.21_14.33.15.hdf5,29702.002
+Vlasan Robert grapgh,data\Vlasan Robert grapgh galsses2025.11.21_14.20.50.hdf5,data\Vlasan Robert grapgh no galsses2025.11.21_14.21.18.hdf5,23144.076
+Vlasan Robert color test,data\Vlasan Robert color test galsses2025.11.21_14.26.56.hdf5,data\Vlasan Robert color test no galsses2025.11.21_14.28.38.hdf5,21420.064
+Vlasan Robert grade,data\Vlasan Robert grade  galsses2025.11.21_14.23.11.hdf5,data\Vlasan Robert grade no galsses2025.11.21_14.23.55.hdf5,16253.23
+Vlasan Robert grafic 4,data\Vlasan Robert grafic 4  galsses2025.11.21_14.36.47.hdf5,data\Vlasan Robert grafic 4 no  galsses2025.11.21_14.36.02.hdf5,4947.262

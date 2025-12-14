@@ -1,0 +1,71 @@
+CWD: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert
+OUT_DIR: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results
+Found 13 HDF5 files.
+
+Found 5 pairs:
+
+                 pair_id                                                  glasses_path                                                   noglasses_path
+Vlasan Robert color test data\Vlasan Robert color test galsses2025.11.21_14.26.56.hdf5 data\Vlasan Robert color test no galsses2025.11.21_14.28.38.hdf5
+  Vlasan Robert eye test   data\Vlasan Robert eye test galsses2025.11.21_14.34.08.hdf5   data\Vlasan Robert eye test no galsses2025.11.21_14.33.15.hdf5
+     Vlasan Robert grade     data\Vlasan Robert grade  galsses2025.11.21_14.23.11.hdf5      data\Vlasan Robert grade no galsses2025.11.21_14.23.55.hdf5
+  Vlasan Robert grafic 4  data\Vlasan Robert grafic 4  galsses2025.11.21_14.36.47.hdf5  data\Vlasan Robert grafic 4 no  galsses2025.11.21_14.36.02.hdf5
+    Vlasan Robert grapgh     data\Vlasan Robert grapgh galsses2025.11.21_14.20.50.hdf5     data\Vlasan Robert grapgh no galsses2025.11.21_14.21.18.hdf5
+
+Sampling rate not found in file; using FS_FALLBACK=256 Hz
+
+Saved plot: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results\mean_paired_difference.png
+Saved plot: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results\mean_paired_difference.pdf
+
+Saved plot: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results\heatmap_channel_band.png
+Saved plot: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results\heatmap_channel_band.pdf
+
+Saved CSV: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results\pairs_and_diffnorm.csv
+
+Top perechi după diff_norm:
+                 pair_id    diff_norm
+  Vlasan Robert eye test 29702.001953
+    Vlasan Robert grapgh 23144.076172
+Vlasan Robert color test 21420.064453
+     Vlasan Robert grade 16253.230469
+  Vlasan Robert grafic 4  4947.262207
+
+Saved CSV: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results\channel_effects.csv
+Saved CSV: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results\band_effects.csv
+
+Top 10 canale afectate:
+ channel  mean_abs_effect
+       4      2080.042480
+       8      1481.833252
+       0      1415.576416
+       1      1195.297607
+      11       958.950989
+       2       882.021851
+       9       836.011230
+       6       817.488159
+      16       811.929810
+       3       806.481262
+
+Benzi afectate (desc):
+ band  mean_abs_effect
+delta      2376.262451
+ beta       319.807831
+theta       173.635269
+alpha        57.549477
+
+Top 10 features by paired t-test p-value:
+  feat[ 114]  -> ch=28 band=alpha  t=-3.637  p=2.202e-02
+  feat[   2]  -> ch= 0 band=alpha  t=-2.127  p=1.006e-01
+  feat[  81]  -> ch=20 band=theta  t=-2.096  p=1.041e-01
+  feat[ 103]  -> ch=25 band=beta   t=-2.047  p=1.100e-01
+  feat[  29]  -> ch= 7 band=theta  t=-1.959  p=1.217e-01
+  feat[  94]  -> ch=23 band=alpha  t=-1.936  p=1.250e-01
+  feat[   1]  -> ch= 0 band=theta  t=-1.719  p=1.608e-01
+  feat[  98]  -> ch=24 band=alpha  t=-1.717  p=1.611e-01
+  feat[  80]  -> ch=20 band=delta  t=-1.666  p=1.711e-01
+  feat[  17]  -> ch= 4 band=theta  t=-1.557  p=1.945e-01
+
+GroupKFold accuracy (by pair_id): mean=0.600 std=0.200 splits=5
+
+Saved report: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results\report.md
+
+Saved terminal output: C:\Users\Robiti\Documents\faculta\neuro\VlasanRobert\results\terminal_output.txt
